@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SportHasten/Pods-SportHasten-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

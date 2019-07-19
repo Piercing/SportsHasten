@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" focusStyle="custom" id="glA-my-tnT" customClass="PlayersTableViewCell" customModule="SportHasten">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="glA-my-tnT" id="45i-O7-XIg">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j26-wQ-8mD">
+                        <rect key="frame" x="20" y="4" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="4hD-QV-ERB"/>
+                            <constraint firstAttribute="height" constant="90" id="PBy-7e-5bD"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="1kZ-Fj-tD3">
+                        <rect key="frame" x="130" y="4" width="226" height="88"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEh-Hf-5v2">
+                                <rect key="frame" x="0.0" y="0.0" width="46" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jw-JT-1YJ">
+                                <rect key="frame" x="0.0" y="35.5" width="71" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5d-yy-qiK">
+                                <rect key="frame" x="0.0" y="70" width="29" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1kZ-Fj-tD3" secondAttribute="trailing" constant="20" id="JIU-hZ-6zd"/>
+                    <constraint firstItem="1kZ-Fj-tD3" firstAttribute="top" secondItem="45i-O7-XIg" secondAttribute="top" constant="4" id="Rm8-wn-yKL"/>
+                    <constraint firstItem="j26-wQ-8mD" firstAttribute="leading" secondItem="45i-O7-XIg" secondAttribute="leading" constant="20" id="Yrf-ue-8vQ"/>
+                    <constraint firstAttribute="bottom" secondItem="j26-wQ-8mD" secondAttribute="bottom" constant="5.5" id="a2M-OZ-eFB"/>
+                    <constraint firstItem="j26-wQ-8mD" firstAttribute="top" secondItem="45i-O7-XIg" secondAttribute="top" constant="4" id="kXd-qw-Sn6"/>
+                    <constraint firstAttribute="bottom" secondItem="1kZ-Fj-tD3" secondAttribute="bottom" constant="7.5" id="oLI-hr-GFv"/>
+                    <constraint firstItem="1kZ-Fj-tD3" firstAttribute="leading" secondItem="j26-wQ-8mD" secondAttribute="trailing" constant="20" id="oOw-nr-R0v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+            <connections>
+                <outlet property="datePlayer" destination="X5d-yy-qiK" id="KLH-b0-V2J"/>
+                <outlet property="imagePlayer" destination="j26-wQ-8mD" id="1nF-zJ-9me"/>
+                <outlet property="namePlayer" destination="hEh-Hf-5v2" id="fnD-Wg-kBO"/>
+                <outlet property="surNamePlayer" destination="5jw-JT-1YJ" id="yHF-zY-jfM"/>
+            </connections>
+            <point key="canvasLocation" x="95.652173913043484" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

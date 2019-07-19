@@ -1,0 +1,61 @@
+/*
+ Loclizable.strings
+ SportHasten
+ 
+ Created by Juan Carlos Merlos Albarracín on 19/07/2019.
+ Copyright © 2019 devspain. All rights reserved.
+ */
+
+// API response keys
+"Url" = "url";
+"URLBase" = "https://api.myjson.com/bins/66851";
+"Title" = "Hasten Sport";
+"Players" = "Players";
+"Name" = "name";
+"Surname" = "surname";
+"Date" = "date";
+"NoDate" = "No date available";
+"Type" = "type";
+"TitleSport" = "title";
+"URLImage" = "image";
+"GetSportError" = "Get sport error:";
+"ErrorGetData" = "Failed to get data";
+"ErrorConvertData" = "Failed to convert data";
+
+"Football" = "Football";
+"Tennis" = "Tennis";
+"Golf" = "Golf";
+"Formula1" = "Formula 1";
+"Sports" = "Sports";
+"football" = "football";
+"tenis" = "tenis";
+"golf" = "golf";
+"f1" = "f1";
+"AllPlayers"  = "All Players";
+
+// Default constants
+"OkButton" = "Ok";
+"Error" = "Error";
+"DataNil" = "Data is nil";
+"NoData" = "No data available";
+"Unexpected URL" = "Unexpected URL";
+"ErrorCallApi" = "Error calling api";
+"UnexpectedTVCell" = "Unexpected Table View Cell";
+"NetworkErrorMessage" = "Network error occurred!.";
+"ErrorCreateURL" = "Error: Cannot create URL from string";
+"APIParseErrorMessage" = "An error occurred while processing response!";
+"NoNetworkErrorMessage" = "Internet is not availble. please check your internet setting and try again.";
+
+// StoryBoards IDs
+"Main" = "Main";
+"SporteCell" = "SporteCell";
+"PlayerViewController" = "PlayerViewController";
+
+// Fonts
+"Avenir-Medium" = "Avenir-Medium";
+
+
+
+
+
+
